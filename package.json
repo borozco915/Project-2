@@ -1,0 +1,11 @@
+{
+  "name": "my-static-site",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'No build needed'"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
