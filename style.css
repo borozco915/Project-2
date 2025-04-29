@@ -63,6 +63,8 @@ header .container{
 
 .logo img {
     width: 40px;
+    margin-right: 0.6rem;
+    margin-top: -0.6rem;
 }
 
 .logo h3{
@@ -70,4 +72,36 @@ header .container{
     font-size 1.55rem;
     line-height: 1.2;
     font-weight: 700;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.links a{
+    color: var(--lightTwo);
+    margin-left: 4.5rem;
+    display: inline-block;
+}
+
+.links a:hover{
+    color: var(--hoverColor);
+    transition: 0.3s;
+}
+
+.btn{
+    display: inline-block;
+    padding: .9rem 1.rem;
+    color: #fff;
+    background-color: var(--mainColor);
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--hoverColor);
+    transform: scale(1) !important;
 }
